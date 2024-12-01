@@ -28,7 +28,7 @@
   width:  180px;
 }
 .top-container {
-  background-image: url('../images/pink_pumpkin.jpg');
+  background-image: url('pink_pumpkin.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -107,7 +107,7 @@
 }
 #pricing
 {
-  background-image: url('../images/pink_pumpkin.jpg');
+  background-image: url('pink_pumpkin.jpg');
   background-size: cover;
   background-position: center;
   height: 45vh;
