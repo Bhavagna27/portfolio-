@@ -1,0 +1,115 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 200px;
+  width:  180px;
+}
+.top-container {
+  background-image: url('../images/pink_pumpkin.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+#features{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+#testimonial{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px; /* Controls the width of the text */
+  padding: 20px;    /* Adds some space around the text */
+}
+.text_para{
+  font-size: 1 rem;
+  line-height: 1.5;
+ 
+}
+.experience_para2, .experience_para1 {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr; /* Two columns: Image (smaller) and text (larger) */
+  grid-gap: 20px; /* Add spacing between the image and the text */
+  align-items: center; /* Vertically align content */
+  max-width: 600px; /* Match the width with .intro-text */
+  margin: 0 auto; /* Center the section */
+  padding: 20px; /* Add space around the content */
+  text-align: left; /* Align text to the left */
+}
+
+.experience_para1 img {
+  width: 200px; /* Consistent size for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners for a polished look */
+}
+
+.intern h3 {
+  margin: 0 0 10px; /* Space between heading and paragraph */
+  color: #626F47; /* Match the heading color */
+  font-size: 1.5rem; /* Adjust heading size for better readability */
+}
+
+.intern p {
+  margin: 0; /* Remove default margins */
+  line-height: 1.6; /* Improve text readability */
+  font-size: 1rem; /* Match font size with intro-text */
+  color: #333; /* Use a neutral text color */
+}
+
+.hack h3{
+  margin: 0 0 10px; /* Space between heading and paragraph */
+  color: #626F47; /* Match the heading color */
+  font-size: 1.5rem; /
+}
+.experience_para2 img {
+  width: 200px; /* Consistent size for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners for a polished look */
+}
+#pricing
+{
+  background-image: url('../images/pink_pumpkin.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  color: #626F47;
+}
